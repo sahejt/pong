@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PONG - SAHEJ TULI</title>
+
+    <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+body{
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab, #4ec200, #002dc2, #e73c7e);
+	background-size: 400% 400%;
+	animation: gradient 7s ease infinite;
+	height: 100vh;
+}
+
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}        
+}
+
+        #pong{
+            cursor: pointer;
+            border: 2px solid #FFF;
+            border-radius: 10px;
+            position: absolute;
+            margin :auto;
+            top:0;
+            right:0;
+            left:0;
+            bottom:0;
+            cursor: pointer;
+            margin-top: 190px;
+        }
+
+        .header{
+
+            text-align: center;
+            margin-top: 100px;
+            font-family: 'Press Start 2P', cursive;        }
+
+        .header h1{
+            color: white;
+            font-size: 60px;
+        }
+
+        .footer{
+            text-align: center;
+            margin-top: 540px;
+        }
+
+        .footer h3{
+            color: white;
+            font-family: 'Press Start 2P', cursive;    
+            font-size: 15px;    
+        }
+
+        .footer span{
+            color: rgb(138, 0, 0);
+            border: 2px solid rgb(138, 0, 0);
+            padding: 10px;
+            background-color: rgb(255, 185, 185);
+        }
+        
+    </style>
+
+</head>
+
+<body>
+    <div class="header">
+    <h1> PONG </h1>
+</div>
+   <canvas id="pong" width="720" height="480"></canvas>
+
+   <div class="footer">
+       <h3> Created by Sahej Tuli. SFSU ID: 921419405 <br><br><br>
+   <span>KEEP MOUSE INSIDE THE FRAME</span></h3>
+   </div>
+   <script src="app_sahejtuli.js"></script>
+</body>
+</html>
