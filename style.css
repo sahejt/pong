@@ -56,6 +56,19 @@ body{
             font-size: 15px;    
         }
 
+        .footer a{
+            color: white;
+            font-family: 'Press Start 2P', cursive;    
+            font-size: 15px;    
+            text-decoration: none;
+            animation: 0.3s ease-in-out;
+        }
+
+        .footer a:hover{
+            color: aliceblue;
+            animation: 0.3s ease-in-out;
+        }
+
         .footer span{
             color: rgb(138, 0, 0);
             border: 2px solid rgb(138, 0, 0);
